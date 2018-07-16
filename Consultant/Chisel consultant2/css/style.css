@@ -1,0 +1,377 @@
+  .navbar-default {
+    background-color: black;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(179, 181, 103)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .nav-link {
+    color: white;
+    font-family: 'Muli-Bold', sans-serif;
+    font-size: 13px;
+  }
+
+  .nav-link:hover{
+    color: #d4bc70;
+  }
+
+  .img-responsive {
+    border-radius: 50%;
+  }
+
+
+  .userpro {
+    position: absolute;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #navbarMenu {
+    margin-right: 16px;
+  }
+
+  .navbar-toggler {
+    margin-right: 60px;
+  }
+
+  .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    
+    outline: none;
+}
+
+  /* Dropdown css Starts*/
+
+  .dropdown-menu {
+    background-color: black;
+    color: black;
+    -webkit-box-shadow: none;
+    -moz-outline-radius: none;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .dropdown-item {
+    color: white;
+  }
+
+  .dropdown-item:hover {
+    color: #d4bc70;
+    background-color: black;
+  }
+
+  .dropdown-divider {
+    color: #d4bc70;
+  }
+
+  /* Dropdown css Ends*/
+
+  /*Navbar Image + Caret*/
+
+  #button1 {
+    background-color: black;
+    box-shadow: none;
+  }
+
+  .btn {
+    background-color: black;
+    border: none;
+  }
+
+  #dropdownMenuReference {
+    background-color: black;
+    box-shadow: none;
+  }
+
+  /*Navbar Image + Caret Ends*/
+
+  .form-control {
+    display: block;
+    width: 100%;
+    margin: 0 0 0px 0;
+    font-size: 14px;
+    height: 40px;
+    box-shadow: none;
+    border-radius: 2px;
+    border: 2px solid #e1e1e1;
+    padding: 0 12px;
+    color: #000;
+    font-weight: normal;
+    font-family: Arial;
+  }
+
+  body {
+    background-image: url('../css/chisel/add-eduction-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .row {
+    padding-top: 20px;
+  }
+
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .panel {
+    border-radius: 0px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  }
+
+  .panel-default {
+    border-color: #ddd;
+  }
+
+  .panel-body {
+    margin-top: -8px;
+    background-color: white;
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .5px;
+    color: #5d5d5d;
+    border: 1px solid #a8a3aa;
+  }
+
+  .my-progress {
+    background-color: white;
+  }
+
+  .my-avatar {
+    background-color: white;
+  }
+
+  .clearfix {
+    background-color: white;
+  }
+
+  .navigation_bar {
+    background-color: white;
+  }
+
+  .panel-heading {
+    margin-top: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #a8a3aa;
+  }
+
+  .register {
+    padding-bottom: 5px;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    color: #343a40;
+    line-height: 60px;
+    letter-spacing: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+
+  .heading-2 {
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+
+  .clearfix,
+  navigation_bar {
+    text-align: center;
+    margin: 0 auto;
+    color: darkgoldenrod;
+  }
+
+  .clearfix {
+    padding-top: 20px;
+  }
+
+  /*Button Css Start*/
+
+  .btn-sample {
+    background: #d4bc70;
+    background-image: -webkit-linear-gradient(top, #d4bc70, #d4bc70);
+    background-image: -moz-linear-gradient(top, #d4bc70, #d4bc70);
+    background-image: -ms-linear-gradient(top, #d4bc70, #d4bc70);
+    background-image: -o-linear-gradient(top, #d4bc70, #d4bc70);
+    background-image: linear-gradient(to bottom, #d4bc70, #d4bc70);
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #413d43;
+    font-size: 14px;
+    padding: 4px 40px 5px 40px;
+    text-decoration: none;
+  }
+  
+ 
+  
+
+  /*Button Css End*/
+
+  .bs-wizard {
+    margin-top: 10px;
+  }
+
+  /*Progress  bar*/
+
+  #progressbar {
+    margin: 30px 0;
+    text-align: center;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+    
+  }
+  
+  #progressbar li {
+    width: 16.66666%;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+    color: #b8b7b7;
+  }
+  
+  #progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 3px;
+    line-height: 3px;
+    display: block;
+    font-size: 0px;
+    color: #413d43;
+    background: #b0afb1;
+    border-radius: 13px;
+    margin: 9px auto 12px auto;
+    position: relative;
+    z-index: 9;
+  }
+  
+  #progressbar li.complete:after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: #413d43 !important;
+    position: absolute;
+    left: 50%;
+    top: 9px;
+    z-index: 10;
+  }
+  
+  #progressbar li.complete:first-child:after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: #413d43 !important;
+    position: absolute;
+    left: 50% !important;
+    top: 9px;
+    z-index: 10;
+  }
+  
+  #progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #e0e0e0;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: 10;
+    /*put it behind the numbers*/
+  }
+  
+  #progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+  }
+  
+  #progressbar li.active {
+    color: #413d43;
+  }
+  
+  #progressbar li.active:before,
+  #progressbar li.active:after {
+    color: #413d43;
+    font-size: 0px;
+    background-image: url(../../images/chisel/b_dot.png);
+    background-repeat: no-repeat;
+    background-color: #99959b;
+    background-position: center center;
+    border-radius: 13px;
+    width: 20px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0 auto 5px auto;
+    position: relative;
+    z-index: 80;
+  }
+  
+  /*END progress bar*/
+
+  .footer {
+    padding-top: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    z-index: 99;
+  }
+
+  @media (min-width: 992px) {
+    body {
+      padding-top: 66px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .container {
+      width: 100%;
+    }
+    .panel{
+      padding-top: 20px;
+    }
+    #progressbar{
+      visibility: hidden;
+    }
+    .footer{
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .panel-heading {
+      margin-top: 100px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .panel-heading {
+      margin-top: 100px;
+    }
+  }
